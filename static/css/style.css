@@ -1,0 +1,40 @@
+html {
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+    overflow-x: hidden;
+    }
+
+body {
+    /* Padding bottom by footer height */
+    font-family: 'Droid Serif', serif;
+    font-size: 20px;
+    min-width: fit-content;
+    overflow-x: hidden;
+    }
+
+
+select {
+    padding-bottom: 10px;
+}
+
+.plot-container.plotly {
+    justify-content: center;
+}
+
+.var-heading {
+    font-style: italic;
+    text-align: center;
+}
+
+.description-text {
+    font-size: 18px;
+}
+
+#banner-col {
+    height: auto;
+}
+
+#main-col {
+    height: auto;
+}
